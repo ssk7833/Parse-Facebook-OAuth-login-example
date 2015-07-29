@@ -1,0 +1,17 @@
+<% include header %>
+<% include bodyHeader %>
+  <div class="container">
+    <div class="starter-template">
+      <% if(typeof message !== "undefined") { %>
+        <%= message %><br/>
+      <% } %>
+      <a class="btn btn-primary" href="/profile">Facebook login</a>
+    </div>
+    <div class="jumbotron">
+      <h1>Parse Facebook OAuth login example</h1>
+      <p>This example is a quick demo to illustrate how <a href="https://github.com/ParsePlatform/parse-facebook-user-session">parse-facebook-user-session</a> work. It shows how to login with Facebook and retrieve data with Facebook Graph API. It's based on Parse Cloud Code and hosting.</p>
+      <p>To see this demo, just click the Facebook login button.</p>
+      <p>Sample files and more details are placed on <a href="https://github.com/ssk7833/Parse-Facebook-OAuth-login-example">Parse-Facebook-OAuth-login-Example</a>.</p>
+    </div>
+  </div><!-- /.container -->
+<% include footer %>
